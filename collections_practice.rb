@@ -25,6 +25,6 @@ container
 end 
 
 def first_wa(argument)
-  argument.each.detect("wa") do |x|
+  argument.values.detect("wa") do |x|
     
 end 
